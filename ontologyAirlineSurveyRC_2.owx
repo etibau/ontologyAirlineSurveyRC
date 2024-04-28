@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC">
+    <Prefix name="" IRI="http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirlineSurvey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComfortRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateFlown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DatePublished"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlightAttendant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Origin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passenger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pearson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QatarAirwaysSurvey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RyanairSurvey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Survey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComfortRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCrew"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDestination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFlight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPassenger"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PassengerName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aircraftType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateFlownRegistred"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#datePublishedRegistred"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maxRatingValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nameDestination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nameOrigin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#passengerCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratingValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reviewBodyText"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seatType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tripType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destination_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flight_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#origin_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#passenger_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rating_0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirlineSurvey"/>
+        <Class IRI="#Survey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComfortRating"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crew"/>
+        <Class IRI="#Pearson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateFlown"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DatePublished"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlightAttendant"/>
+        <Class IRI="#Crew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Origin"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passenger"/>
+        <Class IRI="#Pearson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Crew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QatarAirwaysSurvey"/>
+        <Class IRI="#AirlineSurvey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RyanairSurvey"/>
+        <Class IRI="#AirlineSurvey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceRating"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Destination"/>
+        <NamedIndividual IRI="#destination_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#flight_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Origin"/>
+        <NamedIndividual IRI="#origin_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#passenger_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QatarAirwaysSurvey"/>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rating"/>
+        <NamedIndividual IRI="#rating_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAircraft"/>
+            <Class IRI="#Survey"/>
+        </ObjectExactCardinality>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#datePublishedRegistred"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFlight"/>
+            <Class IRI="#Survey"/>
+        </ObjectMaxCardinality>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#datePublishedRegistred"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFlight"/>
+            <Class IRI="#Survey"/>
+        </ObjectMaxCardinality>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPassenger"/>
+            <Class IRI="#Flight"/>
+        </ObjectMinCardinality>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDestination"/>
+        <NamedIndividual IRI="#flight_0"/>
+        <NamedIndividual IRI="#destination_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#flight_0"/>
+        <NamedIndividual IRI="#origin_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlight"/>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+        <NamedIndividual IRI="#flight_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPassenger"/>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+        <NamedIndividual IRI="#passenger_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+        <NamedIndividual IRI="#rating_0"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nameDestination"/>
+        <NamedIndividual IRI="#destination_0"/>
+        <Literal>London Heathrow via Doha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nameOrigin"/>
+        <NamedIndividual IRI="#origin_0"/>
+        <Literal>Tokyo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PassengerName"/>
+        <NamedIndividual IRI="#passenger_0"/>
+        <Literal>Mary Le</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#passengerCountry"/>
+        <NamedIndividual IRI="#passenger_0"/>
+        <Literal>United Kingdom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seatType"/>
+        <NamedIndividual IRI="#passenger_0"/>
+        <Literal>Economy Class</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tripType"/>
+        <NamedIndividual IRI="#passenger_0"/>
+        <Literal>Solo Leisure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reviewBodyText"/>
+        <NamedIndividual IRI="#qatarAirwaysSurvey_0"/>
+        <Literal>The delay of my flight from Haneda to Doha caused a bit of chaos upon arrival. Despite my efforts to reach the gate promptly, I was denied boarding due to luggage issues, and the lack of assistance added to the frustration. I paid for</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maxRatingValue"/>
+        <NamedIndividual IRI="#rating_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ratingValue"/>
+        <NamedIndividual IRI="#rating_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tripType"/>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
+        <Literal>ObjectIntersectionOf(
+ObjectSomeValuesFrom(tripType),
+ObjectOneOf{&quot;Business&quot;, &quot;Family Leisure&quot;,&quot;Couple Leisure&quot;, “Solo Leisure”}
+)</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFlight"/>
+        <ObjectProperty IRI="#hasPassenger"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraft"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComfortRating"/>
+        <Class IRI="#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCrew"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDestination"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFlight"/>
+        <Class IRI="#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPassenger"/>
+        <Class IRI="#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceRating"/>
+        <Class IRI="#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraft"/>
+        <Class IRI="#Aircraft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComfortRating"/>
+        <Class IRI="#ComfortRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCrew"/>
+        <Class IRI="#Crew"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDestination"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFlight"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Origin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPassenger"/>
+        <Class IRI="#Passenger"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceRating"/>
+        <Class IRI="#ServiceRating"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasCrew"/>
+        <ObjectProperty IRI="#hasPassenger"/>
+    </DisjointObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PassengerName"/>
+        <Class IRI="#Passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aircraftType"/>
+        <Class IRI="#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateFlownRegistred"/>
+        <Class IRI="#DateFlown"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#datePublishedRegistred"/>
+        <Class IRI="#DatePublished"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maxRatingValue"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nameDestination"/>
+        <Class IRI="#Destination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nameOrigin"/>
+        <Class IRI="#Origin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#passengerCountry"/>
+        <Class IRI="#Passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratingValue"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reviewBodyText"/>
+        <Class IRI="#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seatType"/>
+        <Class IRI="#Passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tripType"/>
+        <Class IRI="#Passenger"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#PassengerName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aircraftType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateFlownRegistred"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#datePublishedRegistred"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maxRatingValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nameDestination"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nameOrigin"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#passengerCountry"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ratingValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reviewBodyText"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#seatType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tripType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Viatge realitzat en un Boeing 747</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Flight"/>
+                <Variable IRI="/f"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAircraft"/>
+                <Variable IRI="/f"/>
+                <Variable IRI="/a"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#aircraftType"/>
+                <Variable IRI="/a"/>
+                <Literal>Boeing 747</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head/>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Seient de tipus econòmic</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Flight"/>
+                <Variable IRI="/flight"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#seatType"/>
+                <Variable IRI="/flight"/>
+                <Literal>Economy Class</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head/>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Viatge de negocis</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Passenger"/>
+                <Variable IRI="/passenger"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#tripType"/>
+                <Variable IRI="/passenger"/>
+                <Literal>Business</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head/>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Vol amb servei de qualitat</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Survey"/>
+                <Variable IRI="/survey"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ratingValue"/>
+                <Variable IRI="/rating"/>
+                <Variable IRI="/value"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="/value"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head/>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#QatarAirwaysSurvey</IRI>
+        <IRI>https://dbpedia.org/page/Qatar_Airways</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#RyanairSurvey</IRI>
+        <IRI>https://dbpedia.org/page/Ryanair</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#datePublishedRegistred</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraft</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFlight</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPassenger</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#origin_0</IRI>
+        <IRI>https://dbpedia.org/page/Tokyo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tripType</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
