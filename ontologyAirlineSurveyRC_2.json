@@ -1,0 +1,1410 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.27",
+      "translation": [
+        388.72,
+        218.2
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "45",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "51",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "52",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DatePublished",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "DatePublished"
+      },
+      "pos": [
+        -631.61,
+        439.06
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Rating"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#rating_0",
+          "labels": {
+            "IRI-based": "rating_0"
+          }
+        }
+      ],
+      "pos": [
+        96.33,
+        580
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Crew",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Crew"
+      },
+      "pos": [
+        1142.57,
+        414.4
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Passenger"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#passenger_0",
+          "labels": {
+            "IRI-based": "passenger_0"
+          }
+        }
+      ],
+      "pos": [
+        818.77,
+        1145.27
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Destination",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Destination"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#destination_0",
+          "labels": {
+            "IRI-based": "destination_0"
+          }
+        }
+      ],
+      "pos": [
+        1133.19,
+        232.23
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#RyanairSurvey",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "RyanairSurvey"
+      },
+      "annotations": {
+        "sameAs": [
+          {
+            "identifier": "sameAs",
+            "language": "undefined",
+            "value": "https://dbpedia.org/page/Ryanair",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        29.13,
+        -519.67
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ServiceRating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "ServiceRating"
+      },
+      "pos": [
+        -13.35,
+        239.19
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Survey"
+      },
+      "pos": [
+        364.68,
+        185.72
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1064.81,
+        1200.83
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        886.57,
+        1401.32
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -483.1,
+        -352.25
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        956.45,
+        439.79
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        632.17,
+        1344.52
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -125.79,
+        732.71
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        46.21,
+        857.22
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        761.99,
+        -628.55
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        561.42,
+        1146.14
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        156.98,
+        41.69
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pilot",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Pilot"
+      },
+      "pos": [
+        1515.63,
+        386.74
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -611.82,
+        676
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1301.02,
+        -472.17
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Flight"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#flight_0",
+          "labels": {
+            "IRI-based": "flight_0"
+          }
+        }
+      ],
+      "pos": [
+        820.6,
+        18.82
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pearson",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Pearson"
+      },
+      "pos": [
+        1037.43,
+        805.34
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#QatarAirwaysSurvey",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "QatarAirwaysSurvey"
+      },
+      "annotations": {
+        "sameAs": [
+          {
+            "identifier": "sameAs",
+            "language": "undefined",
+            "value": "https://dbpedia.org/page/Qatar_Airways",
+            "type": "iri"
+          }
+        ]
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#qatarAirwaysSurvey_0",
+          "labels": {
+            "IRI-based": "qatarAirwaysSurvey_0"
+          }
+        }
+      ],
+      "pos": [
+        267.92,
+        -596.29
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#FlightAttendant",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "FlightAttendant"
+      },
+      "pos": [
+        1443.64,
+        632.68
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Date",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Date"
+      },
+      "pos": [
+        -619.41,
+        89.12
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Aircraft",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Aircraft"
+      },
+      "pos": [
+        761.36,
+        -370.11
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Location",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Location"
+      },
+      "pos": [
+        1412.37,
+        -15.15
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#AirlineSurvey",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "AirlineSurvey"
+      },
+      "pos": [
+        235.82,
+        -222.25
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ComfortRating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "ComfortRating"
+      },
+      "pos": [
+        444.08,
+        550.76
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DateFlown",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "DateFlown"
+      },
+      "pos": [
+        -688.37,
+        -249.9
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Origin",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "Origin"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#origin_0",
+          "labels": {
+            "IRI-based": "origin_0"
+          }
+        }
+      ],
+      "pos": [
+        1142.82,
+        -265.54
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "5",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "29",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "40",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "42",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "46",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "47",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "49",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "54",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "56",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "58",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "59",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "61",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "62",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "50",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "65",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#seatType",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "seatType"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "3",
+      "range": "4",
+      "pos": [
+        959.07,
+        1176.96
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasRating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasRating"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "7",
+      "pos": [
+        233.47,
+        378.5
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasDestination",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasDestination"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "9",
+      "range": "10",
+      "pos": [
+        976.89,
+        125.52
+      ]
+    },
+    {
+      "id": "18",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "20",
+      "pos": [
+        251.42,
+        -404.01
+      ]
+    },
+    {
+      "id": "21",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "22",
+      "range": "20",
+      "pos": [
+        132.48,
+        -370.96
+      ]
+    },
+    {
+      "id": "23",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        -625.51,
+        264.09
+      ]
+    },
+    {
+      "id": "24",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "1",
+      "pos": [
+        -653.89,
+        -80.39
+      ]
+    },
+    {
+      "id": "26",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "10",
+      "range": "17",
+      "pos": [
+        1276.73,
+        105.04
+      ]
+    },
+    {
+      "id": "27",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "28",
+      "range": "17",
+      "pos": [
+        1281.46,
+        -136.76
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#maxRatingValue",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "maxRatingValue"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "7",
+      "range": "30",
+      "pos": [
+        66.79,
+        743.4
+      ]
+    },
+    {
+      "id": "31",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "14",
+      "pos": [
+        1090,
+        609.87
+      ]
+    },
+    {
+      "id": "32",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "33",
+      "range": "9",
+      "pos": [
+        819.19,
+        -189.19
+      ]
+    },
+    {
+      "id": "34",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "14",
+      "pos": [
+        930.95,
+        970.87
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#datePublishedRegistred",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "datePublishedRegistred"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "_:genid2147483649"
+      },
+      "domain": "0",
+      "range": "36",
+      "pos": [
+        -620.05,
+        577.44
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "15",
+      "range": "13",
+      "pos": [
+        1329.1,
+        400.57
+      ]
+    },
+    {
+      "id": "38",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "12",
+      "range": "7",
+      "pos": [
+        275.46,
+        564.94
+      ]
+    },
+    {
+      "id": "39",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "6",
+      "pos": [
+        300.25,
+        -18.26
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasComfortRating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasComfortRating"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "12",
+      "pos": [
+        404.38,
+        368.24
+      ]
+    },
+    {
+      "id": "41",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "16",
+      "range": "13",
+      "pos": [
+        1293.1,
+        523.54
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#PassengerName",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "PassengerName"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "3",
+      "range": "43",
+      "pos": [
+        709.46,
+        1261.99
+      ]
+    },
+    {
+      "id": "44",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "7",
+      "pos": [
+        39.87,
+        404.57
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasOrigin",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasOrigin"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "9",
+      "range": "28",
+      "pos": [
+        981.71,
+        -123.36
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#aircraftType",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "aircraftType"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "33",
+      "range": "48",
+      "pos": [
+        761.72,
+        -519.33
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasFlight",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasFlight"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "_:genid2147483650"
+      },
+      "domain": "6",
+      "range": "9",
+      "inverse": "50",
+      "pos": [
+        587.69,
+        104.08
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#dateFlownRegistred",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "dateFlownRegistred"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "51",
+      "pos": [
+        -573.39,
+        -307.23
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasAircraft",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasAircraft"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "_:genid2147483648"
+      },
+      "domain": "9",
+      "range": "33",
+      "pos": [
+        744.68,
+        -176.88
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#reviewBodyText",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "reviewBodyText"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "57",
+      "pos": [
+        247.49,
+        104.46
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasCrew",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasCrew"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "9",
+      "range": "13",
+      "pos": [
+        984.91,
+        220.7
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#nameDestination",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "nameDestination"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "10",
+      "range": "52",
+      "pos": [
+        1029.45,
+        354.06
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#passengerCountry",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "passengerCountry"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "3",
+      "range": "55",
+      "pos": [
+        672.07,
+        1145.77
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasPassenger",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasPassenger"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "_:genid2147483653"
+      },
+      "domain": "9",
+      "range": "6",
+      "inverse": "49"
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#tripType",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "tripType"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "_:genid2147483654"
+      },
+      "domain": "3",
+      "range": "45",
+      "pos": [
+        859.1,
+        1297.56
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ratingValue",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "ratingValue"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "7",
+      "range": "53",
+      "pos": [
+        -32.4,
+        668.51
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasServiceRating",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "hasServiceRating"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "11",
+      "pos": [
+        175.66,
+        212.46
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#nameOrigin",
+      "baseIri": "http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC",
+      "label": {
+        "IRI-based": "nameOrigin"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "28",
+      "range": "60",
+      "pos": [
+        1236.5,
+        -387.89
+      ]
+    }
+  ]
+}

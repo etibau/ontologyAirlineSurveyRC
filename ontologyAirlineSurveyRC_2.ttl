@@ -1,0 +1,210 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix : 		<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC> .
+@base 			<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC> .
+
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC> rdf:type owl:Ontology ;
+                                                                                dc:title "undefined"@en;
+                                                                                dc:description "undefined"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 21 ###
+#  --------------------------- Property 0------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#seatType> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:label "seatType"@IRI-based; 
+                                                                                         rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger>;
+                                                                                         rdfs:range xsd:string . 
+#  --------------------------- Property 1------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasRating> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:label "hasRating"@IRI-based; 
+                                                                                          rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey>;
+                                                                                          rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating> . 
+#  --------------------------- Property 2------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasDestination> rdf:type owl:ObjectProperty ;
+                                                                                               rdfs:label "hasDestination"@IRI-based; 
+                                                                                               rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight>;
+                                                                                               rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Destination> . 
+#  --------------------------- Property 3------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#maxRatingValue> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:label "maxRatingValue"@IRI-based; 
+                                                                                               rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating>;
+                                                                                               rdfs:range xsd:decimal . 
+#  --------------------------- Property 4------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#datePublishedRegistred> rdf:type owl:DatatypeProperty ;
+                                                                                                       rdfs:comment "_:genid2147483649" ;
+                                                                                                       rdfs:label "datePublishedRegistred"@IRI-based; 
+                                                                                                       rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DatePublished>;
+                                                                                                       rdfs:range xsd:dateTime . 
+#  --------------------------- Property 5------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasComfortRating> rdf:type owl:ObjectProperty ;
+                                                                                                 rdfs:label "hasComfortRating"@IRI-based; 
+                                                                                                 rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey>;
+                                                                                                 rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ComfortRating> . 
+#  --------------------------- Property 6------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#PassengerName> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:label "PassengerName"@IRI-based; 
+                                                                                              rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger>;
+                                                                                              rdfs:range xsd:string . 
+#  --------------------------- Property 7------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasOrigin> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:label "hasOrigin"@IRI-based; 
+                                                                                          rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight>;
+                                                                                          rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Origin> . 
+#  --------------------------- Property 8------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#aircraftType> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:label "aircraftType"@IRI-based; 
+                                                                                             rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Aircraft>;
+                                                                                             rdfs:range xsd:string . 
+#  --------------------------- Property 9------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasFlight> rdf:type owl:ObjectProperty; 
+                                                                                          owl:inverseOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasPassenger> ;
+                                                                                          rdfs:comment "_:genid2147483650" ;
+                                                                                          rdfs:label "hasFlight"@IRI-based; 
+                                                                                          rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey>;
+                                                                                          rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight> . 
+#  --------------------------- Property 10------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#dateFlownRegistred> rdf:type owl:DatatypeProperty ;
+                                                                                                   rdfs:label "dateFlownRegistred"@IRI-based; 
+                                                                                                   rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DateFlown>;
+                                                                                                   rdfs:range xsd:dateTime . 
+#  --------------------------- Property 11------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasAircraft> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:comment "_:genid2147483648" ;
+                                                                                            rdfs:label "hasAircraft"@IRI-based; 
+                                                                                            rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight>;
+                                                                                            rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Aircraft> . 
+#  --------------------------- Property 12------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#reviewBodyText> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:label "reviewBodyText"@IRI-based; 
+                                                                                               rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey>;
+                                                                                               rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasCrew> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:label "hasCrew"@IRI-based; 
+                                                                                        rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight>;
+                                                                                        rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Crew> . 
+#  --------------------------- Property 14------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#nameDestination> rdf:type owl:DatatypeProperty ;
+                                                                                                rdfs:label "nameDestination"@IRI-based; 
+                                                                                                rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Destination>;
+                                                                                                rdfs:range xsd:string . 
+#  --------------------------- Property 15------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#passengerCountry> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:label "passengerCountry"@IRI-based; 
+                                                                                                 rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger>;
+                                                                                                 rdfs:range xsd:string . 
+#  --------------------------- Property 16------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasPassenger> rdf:type owl:ObjectProperty; 
+                                                                                             owl:inverseOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasFlight> ;
+                                                                                             rdfs:comment "_:genid2147483653" ;
+                                                                                             rdfs:label "hasPassenger"@IRI-based; 
+                                                                                             rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight>;
+                                                                                             rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey> . 
+#  --------------------------- Property 17------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#tripType> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:comment "_:genid2147483654" ;
+                                                                                         rdfs:label "tripType"@IRI-based; 
+                                                                                         rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger>;
+                                                                                         rdfs:range xsd:string . 
+#  --------------------------- Property 18------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ratingValue> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:label "ratingValue"@IRI-based; 
+                                                                                            rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating>;
+                                                                                            rdfs:range xsd:decimal . 
+#  --------------------------- Property 19------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#hasServiceRating> rdf:type owl:ObjectProperty ;
+                                                                                                 rdfs:label "hasServiceRating"@IRI-based; 
+                                                                                                 rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey>;
+                                                                                                 rdfs:range <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ServiceRating> . 
+#  --------------------------- Property 20------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#nameOrigin> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:label "nameOrigin"@IRI-based; 
+                                                                                           rdfs:domain <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Origin>;
+                                                                                           rdfs:range xsd:string . 
+###  Class Definitions (Number of Classes) 20 ###
+#  --------------------------- Class  0------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DatePublished> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Date> ;
+                                                                                              rdfs:label "DatePublished"@IRI-based . 
+#  --------------------------- Class  1------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating> rdf:type owl:Class; 
+                                                                                       rdfs:label "Rating"@IRI-based . 
+#  --------------------------- Class  2------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Crew> rdf:type owl:Class; 
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pearson> ;
+                                                                                     rdfs:label "Crew"@IRI-based . 
+#  --------------------------- Class  3------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Passenger> rdf:type owl:Class; 
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pearson> ;
+                                                                                          rdfs:label "Passenger"@IRI-based . 
+#  --------------------------- Class  4------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Destination> rdf:type owl:Class; 
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Location> ;
+                                                                                            rdfs:label "Destination"@IRI-based . 
+#  --------------------------- Class  5------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#RyanairSurvey> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#AirlineSurvey> ;
+                                                                                              rdfs:label "RyanairSurvey"@IRI-based . 
+#  --------------------------- Class  6------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ServiceRating> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating> ;
+                                                                                              rdfs:label "ServiceRating"@IRI-based . 
+#  --------------------------- Class  7------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey> rdf:type owl:Class; 
+                                                                                       rdfs:label "Survey"@IRI-based . 
+#  --------------------------- Class  8------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pilot> rdf:type owl:Class; 
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Crew> ;
+                                                                                      rdfs:label "Pilot"@IRI-based . 
+#  --------------------------- Class  9------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight> rdf:type owl:Class; 
+                                                                                       rdfs:label "Flight"@IRI-based . 
+#  --------------------------- Class  10------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Pearson> rdf:type owl:Class; 
+                                                                                        rdfs:label "Pearson"@IRI-based . 
+#  --------------------------- Class  11------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#QatarAirwaysSurvey> rdf:type owl:Class; 
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#AirlineSurvey> ;
+                                                                                                   rdfs:label "QatarAirwaysSurvey"@IRI-based . 
+#  --------------------------- Class  12------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#FlightAttendant> rdf:type owl:Class; 
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Crew> ;
+                                                                                                rdfs:label "FlightAttendant"@IRI-based . 
+#  --------------------------- Class  13------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Date> rdf:type owl:Class; 
+                                                                                     rdfs:label "Date"@IRI-based . 
+#  --------------------------- Class  14------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Aircraft> rdf:type owl:Class; 
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Flight> ;
+                                                                                         rdfs:label "Aircraft"@IRI-based . 
+#  --------------------------- Class  15------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Location> rdf:type owl:Class; 
+                                                                                         rdfs:label "Location"@IRI-based . 
+#  --------------------------- Class  16------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#AirlineSurvey> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Survey> ;
+                                                                                              rdfs:label "AirlineSurvey"@IRI-based . 
+#  --------------------------- Class  17------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#ComfortRating> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Rating> ;
+                                                                                              rdfs:label "ComfortRating"@IRI-based . 
+#  --------------------------- Class  18------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#DateFlown> rdf:type owl:Class; 
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Date> ;
+                                                                                          rdfs:label "DateFlown"@IRI-based . 
+#  --------------------------- Class  19------------------------- 
+<http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Origin> rdf:type owl:Class; 
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/elisenda/ontologies/2024/3/ontologyAirlineSurveyRC#Location> ;
+                                                                                       rdfs:label "Origin"@IRI-based . 
